@@ -283,6 +283,13 @@ body {
   padding: 6px 22px;
 }
 
+.portfolio-btn-list {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 50px;
+}
+
 .portfolio-btn:hover {
   color: var(--second-accent-color, #fff);
   text-align: center;
@@ -292,12 +299,26 @@ body {
   padding: 6px 25px;
 }
 
+.portfolio-article-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.container-article {
+  border-bottom: 1px solid var(--frame-color, #eee);
+  border-right: 1px solid var(--frame-color, #eee);
+  border-left: 1px solid var(--frame-color, #eee);
+  padding: 0px 24px 20px;
+}
+
 .portfolio-article-title {
   color: var(--title-color, #212121);
   font-size: 18px;
   font-weight: 700;
   line-height: 2;
   letter-spacing: 1.08px;
+  padding: 20px 0px 4px;
 }
 
 .portfolio-article-desc {
