@@ -309,7 +309,7 @@ body {
   border-bottom: 1px solid var(--frame-color, #eee);
   border-right: 1px solid var(--frame-color, #eee);
   border-left: 1px solid var(--frame-color, #eee);
-  padding: 20px 24px;
+  padding: 20px 24px 20px;
 }
 
 .portfolio-article-title {
